@@ -17,7 +17,7 @@ public class MoviesTests {
 
     @Autowired
     private MockMvc mockMvc; //not a problem, appearently
-    //cool comment
+    //cool comment 2
 
     @Test
     void testCase1() throws Exception {
