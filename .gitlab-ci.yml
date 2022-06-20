@@ -1,0 +1,8 @@
+image: openjdk:18
+stages:
+  - test
+maven-test:
+  stage: test
+  script:
+    - chmod +x ./mvnw
+    - ./mvnw clean verify
